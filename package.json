@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Tevvek/tempoHack/issues"
   },
-  "homepage": "https://github.com/Tevvek/tempoHack#readme"
+  "homepage": "https://github.com/Tevvek/tempoHack#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "mongoose": "^4.4.4"
+  }
 }

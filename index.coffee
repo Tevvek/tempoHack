@@ -1,19 +1,18 @@
-mongoose = require('mongoose');
-models = require('./models');
-express = require('express');
-express_jwt = require('express-jwt');
-http = require('http');
-async = require('async');
-bodyparser = require('body-parser');
+mongoose = require('mongoose')
+models = require('./models')
+express = require('express')
+http = require('http')
+async = require('async')
+bodyparser = require('body-parser')
 
-config = require('./config');
-mongoose.connect(config.db_path);
-models.initialize();
+db_path = 'mongodb://localhost/tempoteam'
+mongoose.connect(db_path)
+models.initialize()
 
-app = express();
-app.use(bodyparser.json());
-app.use('/authenticate', require('./routes/authenticate'));
-app.use('/admin', require('./routes/admin.coffee'));
-app.use('/', require('./routes/publica.coffee'));
+app = express()
+app.use(bodyparser.json())
+app.use('/user', require('./routes/user.coffee'))
+app.use('/job', require('./routes/job'))
+# app.use('/', require('./routes/public.coffee'))
 
-http.createServer(app).listen(8080); 
+http.createServer(app).listen(8080) 
