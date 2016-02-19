@@ -12,10 +12,10 @@ module.exports = function() {
         workingDays: {type: Number, required: true},
         hoursPerWeek: {type: Number, required: true},
         salaryPerMonth: {type: Number, required: true},
-        optionalSkills: [{type: String}, default:[]],
-        requiredSkills: [{type: String}, default:[]],
+        optionalSkills: [{type: String, default:[]}],
+        requiredSkills: [{type: String, default:[]}],
         area: String,
-        subAreas: [{type: String}, default:[]],
+        subAreas: [{type: String, default:[]}],
         companyField: String,
         jobLink: {type: String, required: true},
         label: String,
@@ -23,8 +23,8 @@ module.exports = function() {
         publicationDate: {type: Date, default: Date.now},
         employer: String,
         employerID: String,
-        tagsForDemo: [{type: String}, default:[]]
-    });
 
+        tagsForDemo: [{type: String, default:[]}],
+    });
     mongoose.model('JobVacancyModel', jobVacancySchema, 'jobVacancyModel');
 };
