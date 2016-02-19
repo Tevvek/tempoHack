@@ -23,8 +23,8 @@ module.exports = function() {
         publicationDate: {type: Date, default: Date.now},
         employer: String,
         employerID: String,
-
         tagsForDemo: [{type: String}, default:[]]
     });
+
     mongoose.model('JobVacancyModel', jobVacancySchema, 'jobVacancyModel');
 };

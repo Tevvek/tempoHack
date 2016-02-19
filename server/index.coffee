@@ -12,7 +12,7 @@ models.initialize()
 app = express()
 app.use(bodyparser.json())
 app.use('/user', require('./routes/user.router.coffee'))
-# app.use('/job', require('./routes/job.router.js'))
+#app.use('/job', require('./routes/job.router.js'))
 # app.use('/', require('./routes/public.coffee'))
 
 http.createServer(app).listen(8080) 
