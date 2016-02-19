@@ -22,7 +22,7 @@ module.exports = function() {
         internal: String,
         publicationDate: {type: Date, default: Date.now},
         employer: String,
-        employerID: String,
+        employerID: String, 
     });
     mongoose.model('JobVacancyModel', jobVacancySchema, 'jobVacancyModel');
 };
