@@ -168,7 +168,7 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	color: #fff;
-	background-color: #203748;
+	background-color: #efefef;
 }
 a {
 	color: #0088cc;
@@ -1572,7 +1572,7 @@ legend + .control-group {
 	line-height: 20px;
 	text-align: center;
 	vertical-align: middle;
-	background:#39d084;
+	background:#4d4d4d;
 	cursor: pointer;
 	color: #fff;
 	border:0;
@@ -2838,7 +2838,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	min-height: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: #f04949;
+	background-color: #e4310e;
  *zoom: 1;
 }
 .navbar-inner:before, .navbar-inner:after {
@@ -3033,7 +3033,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	float: right;
 	padding: 32px;
 	color: #ffffff;
-	background-color: #39D084;
+	background-color: #4d4d4d;
  *background-color: #e5e5e5;
 /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 }
