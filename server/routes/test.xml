@@ -1,0 +1,30 @@
+ <vacatures>
+   <vacature>
+      <opleidingsniveaus>
+         <opleidingsniveau>coche</opleidingsniveau>
+         <opleidingsniveau>eso, bat</opleidingsniveau>
+      </opleidingsniveaus>
+   </vacature>
+   <vacature>
+      <opleidingsniveaus>
+         <opleidingsniveau>eso, bat</opleidingsniveau>
+      </opleidingsniveaus>
+   </vacature>
+   <vacature>
+      <opleidingsniveaus>
+         <opleidingsniveau>coche, frances</opleidingsniveau>
+         <opleidingsniveau>eso, bat</opleidingsniveau>
+      </opleidingsniveaus>
+   </vacature>
+   <vacature>
+      <opleidingsniveaus>
+         <opleidingsniveau>eso, bat, uni</opleidingsniveau>
+      </opleidingsniveaus>
+   </vacature>
+   <vacature>
+      <opleidingsniveaus>
+         <opleidingsniveau>coche, frances, ingles</opleidingsniveau>
+         <opleidingsniveau>eso, bat</opleidingsniveau>
+      </opleidingsniveaus>
+   </vacature>
+</vacatures>

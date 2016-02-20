@@ -9,11 +9,18 @@ var JobVacancy = mongoose.model('JobVacancyModel');
 jobRouter.post('/', function(req, res, next) {
     var jobVacancyInstance = new JobVacancy(req.body);
     jobVacancyInstance.save(function(err, newJobVacancy) {
-        if (err) res.status(500).send(err);
-        else res.status(200).json({ jobVacancy: newJobVacancy });
+        console.log(newJobVacancy.id)
+        var apply = {
+            job: newJobVacancy.id,
+            users: []
+        }
+        var applyInstance = new Apply(apply);
+        applyInstance.save(function(err, newApply) {
+            if(!err) res.status(200).json(newJobVacancy);
+            else res.status(400).json('ops');
+        });
     });
 });
-
 
 jobRouter.post('/get', function(req, res, next) {
     var tags = req.body.tags;
