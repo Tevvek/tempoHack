@@ -15,16 +15,12 @@ jobRouter.post('/newJobVacancy', function(req, res, next) {
 
 jobRouter.post('/getJobVacancy', function(req, res, next) {
     var tags = req.body.tags;
-    console.log("Tags->"+tags);
     JobVacancy.find({}, function(err, jobVacancies) {
-        console.log("JB->"+jobVacancies);
         if (err) res.status(500).send(err);
         else {
             var respuesta = [];
             for (var i = 0; i < jobVacancies.length; i++) {
                 var b = intersect(tags, jobVacancies[i].tagsForDemo);
-                console.log("JB[i]->"+jobVacancies[i]);
-                console.log("b->"+b);
                 if (b.length > 0) {
                     respuesta.push(jobVacancies[i]);
                 }
