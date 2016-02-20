@@ -6,14 +6,6 @@ var xml2js = require('xml2js');
 var parser = new xml2js.Parser();
 var JobVacancy = mongoose.model('JobVacancyModel');
 
-jobRouter.get('/test', function(req, res, next) {
-    fs.readFile(__dirname + '/onejob.xml', function(err, data) {
-        parser.parseString(data, function (err, result) {
-            res.status(200).json(JSON.stringify(result));
-        });
-    });
-});
-
 jobRouter.post('/', function(req, res, next) {
     var jobVacancyInstance = new JobVacancy(req.body);
     jobVacancyInstance.save(function(err, newJobVacancy) {
