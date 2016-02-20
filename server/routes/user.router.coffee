@@ -43,7 +43,7 @@ router.get('/:id/jobs', (req,res,next) ->
     foundJobs = []
     if !err
       tags = user.tags 
-      fs.readFile(__dirname + '/test.xml', (err, data) ->
+      fs.readFile(__dirname + '/jobs.xml', (err, data) ->
         parser.parseString(data,(err, result) ->
           for vacature in result.vacatures.vacature
             requirements = vacature.opleidingsniveaus
@@ -102,6 +102,8 @@ router.post('/:user_id/job/:job_id', (req,res,next) ->
       )
   )
 )
+
+router.post('', (req,res,next) ->)
 
 # post users info
 router.post('/:id', (req, res, next) -> 
