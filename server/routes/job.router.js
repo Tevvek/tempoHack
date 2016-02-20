@@ -22,6 +22,7 @@ jobRouter.post('/', function(req, res, next) {
     });
 });
 
+
 jobRouter.post('/get', function(req, res, next) {
     var tags = req.body.tags;
     JobVacancy.find({}, function(err, jobVacancies) {

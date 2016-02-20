@@ -28,12 +28,27 @@
 </div>
   <div class="container skills">
     <h2 align="center">Jobs Offers</h2>
-    <tr ng-repeat="o in offers">
-      <h2 align="left">{{o.labelnaam}} {{o.plaats}} {{o.aantalurenperweek}} {{o.publicatiedatum}} </h2>
+      <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Label</th>
+                <th>City</th>
+                <th>Aantalurenperweek</th>
+                <th>Publicatiedatum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="offer in offers">
+                <td>{{offer.labelnaam}}</td>
+                <td>{{offer.plaats}}</td>
+                <td>{{offer.aantalurenperweek}}</td>
+                <td>{{offer.publicatiedatum}}</td>
+              </tr>
+            </tbody>
+          </table>
       <button align="left" type="submit" class="btn btn-small"> Read More</button>
       <button align="left" type="submit" class="btn btn-small"> Apply</button>
       <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
-    </tr>
   </div>
 
 <div class="footer">

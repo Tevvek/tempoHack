@@ -46,7 +46,6 @@ router.get('/:id/jobs', (req,res,next) ->
       fs.readFile(__dirname + '/jobs.xml', (err, data) ->
         parser.parseString(data,(err, result) ->
           for vacature in result.vacatures.vacature
-            console.log vacature
             requirements = vacature.opleidingsniveaus
             if requirements[0].opleidingsniveau.length is 2
               studies = requirements[0].opleidingsniveau[1].split(', ')
