@@ -57,6 +57,7 @@ Herken jij jezelf in bovenstaande vacature? Reageer dan snel via de button "soll
             <aantalurenperweek>40.0</aantalurenperweek>
             <salarisindicatie>1500</salarisindicatie>
             <opleidingsniveaus>
+               <opleidingsniveau>HB0</opleidingsniveau>
                <opleidingsniveau>MBO, HAVO, VWO</opleidingsniveau>
             </opleidingsniveaus>
             <vakgebieden>
