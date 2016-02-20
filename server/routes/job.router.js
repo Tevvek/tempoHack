@@ -1,10 +1,15 @@
 var mongoose = require('mongoose');
 var jobRouter = require('express').Router();
+var intersect = require('intersect');
+var XML = require('pixl-xml');
+
+var config = XML.parse('/info2.xml');
+
 
 var JobVacancy = mongoose.model('JobVacancyModel');
 
-//create new Job Vacancy
 jobRouter.post('/newJobVacancy', function(req, res, next) {
+	console.log( "info->"+config );
     var jobVacancyInstance = new JobVacancy(req.body);
     jobVacancyInstance.save(function(err, newJobVacancy) {
         if (err) res.status(500).send(err);
@@ -12,24 +17,23 @@ jobRouter.post('/newJobVacancy', function(req, res, next) {
     });
 });
 
-//get Job Vacancies by tags
+
 jobRouter.post('/getJobVacancy', function(req, res, next) {
     var tags = req.body.tags;
     JobVacancy.find({}, function(err, jobVacancies) {
-        var res = [];
-        for (var i = 0; i < jobVacancies.length; i++) {
-            var b = true;
-            for (int j = 0; j < tags.length && b; ++j) {
-                b = $.inArray(tags[j], jobVacancies[i]);
-            }
-
-            if (b) {
-                res.add(jobVacancies[i]);
-            }
-        }
-        if (err) res.status(500).json(err);
+        if (err) res.status(500).send(err);
         else {
-            res.status(200).json(res);
+            var respuesta = [];
+            for (var i = 0; i < jobVacancies.length; i++) {
+                var b = intersect(tags, jobVacancies[i].tagsForDemo);
+                if (b.length > 0) {
+                    respuesta.push(jobVacancies[i]);
+                }
+            }
+            if (err) res.status(500).json(err);
+            else {
+                res.status(200).json(respuesta);
+            }
         }
     });
 });
