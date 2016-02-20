@@ -21,9 +21,10 @@ router.get('/job/:id', (req,res,next) ->
     result_users = []
     for user in job.users
       User.findOne({_id: new ObjectId(user.id)}, (err, user) ->
-        if !err result_users.push user
+        if !err then result_users.push user
       )
-    res.status(200).send(result_users)
+  )
+  res.status(200).send(result_users)
 )
 
 module.exports = router;
