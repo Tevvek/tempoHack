@@ -5,7 +5,7 @@ var ObjectId = Schema.Types.ObjectId;
 module.exports = function() {
    var applySchema = new Schema({
       job: {type: ObjectId, ref: 'JobVacancyModel'},
-      userse: [{type: ObjectId, ref: 'User'}]
+      users: [{type: ObjectId, ref: 'User'},{type: Number, default: 0}]
   });
   mongoose.model('Apply', applySchema, 'applies');
 };
