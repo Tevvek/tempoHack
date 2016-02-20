@@ -25,15 +25,31 @@
   </div>
 </div>
 <div class="container skills">
-  <h2 align="center">Jobs Offerts</h2>
-  <tr ng-repeat="o in offers">
-    <h2 align="left">{{o.offertTitle}} {{o.city}} {{o.hoursWeek}} {{o.publicatiedatum}}</h2>
-    <button align="left" type="submit" class="btn btn-small"> Read More</button>
-    <button align="left" type="submit" class="btn btn-small"> Who has applied?</button>
-    <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
-  </tr>
-</div>
-
+    <h2 align="center">Jobs Offers</h2>
+      <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Label</th>
+                <th>City</th>
+                <th>Aantalurenperweek</th>
+                <th>Publicatiedatum</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="offer in offers">
+                <td>{{offer.labelnaam}}</td>
+                <td>{{offer.plaats}}</td>
+                <td>{{offer.aantalurenperweek}}</td>
+                <td>{{offer.publicatiedatum}}</td>
+                <td>  <button align="left" type="submit" class="btn btn-small"> Read More</button></td>
+                <td>  <button align="left" type="submit" class="btn btn-small"> Apply</button></td>
+              </tr>
+            </tbody>
+          </table>
+      <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
+  </div>
 <div class="footer" href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
   <div class="container">
     <p class="pull-left"><a href="https://www.tempo-team.nl">https://www.tempo-team.nl</a></p>
