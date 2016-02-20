@@ -22,22 +22,17 @@
     </div>
   </div>
 </div>
-<div class="container skills">
-  <h1 align="center">Jobs Offerts</h1>
 
-  <div class="packFeina">
-    <div class="">
-      <h2 align="left">{{offertTitle}} {{city}} {{hoursWeek}} </h2>
-    </div>
-    <div>
-      <button type="submit" class="btn btn-small"> Read More</button>
-      <button type="submit" class="btn btn-small"> Apply</button>
-    </div>
+  <div class="container skills">
+    <h2 align="center">Jobs Offerts</h2>
+    <tr ng-repeat="o in offers">
+      <h2 align="left">{{o.offertTitle}} {{o.city}} {{o.hoursWeek}} </h2>
+      <button align="left" type="submit" class="btn btn-small"> Read More</button>
+      <button align="left" type="submit" class="btn btn-small"> Apply</button>
+      <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
+    </tr>
   </div>
-  <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
 
-
-</div>
 <div class="footer">
   <div class="container">
     <p class="pull-left"><a href="https://www.tempo-team.nl">https://www.tempo-team.nl</a></p>

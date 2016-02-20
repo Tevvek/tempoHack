@@ -23,8 +23,14 @@
     </div>
   </div>
 </div>
-<div class="container work">
-  <h2>Applied Works</h2>
+<div class="container skills">
+    <h2 align="center">Applied Jobs</h2>
+    <tr ng-repeat="a in appliedJobs">
+        <h2 align="left">{{a.offertTitle}} {{a.city}} {{a.hoursWeek}} </h2>
+        <button align="left" type="submit" class="btn btn-small"> Read More</button>
+        <button align="left" type="submit" class="btn btn-small"> Delete</button>
+        <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
+    </tr>
 </div>
 <div class="footer">
   <div class="container">
