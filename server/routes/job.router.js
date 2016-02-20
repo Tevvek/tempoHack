@@ -1,10 +1,15 @@
 var mongoose = require('mongoose');
 var jobRouter = require('express').Router();
 var intersect = require('intersect');
+var XML = require('pixl-xml');
+
+var config = XML.parse('/info2.xml');
+
 
 var JobVacancy = mongoose.model('JobVacancyModel');
 
 jobRouter.post('/newJobVacancy', function(req, res, next) {
+	console.log( "info->"+config );
     var jobVacancyInstance = new JobVacancy(req.body);
     jobVacancyInstance.save(function(err, newJobVacancy) {
         if (err) res.status(500).send(err);
