@@ -41,7 +41,7 @@ router.get('/:id/jobs', (req,res,next) ->
     foundJobs = []
     if !err
       tags = user.tags 
-      fs.readFile(__dirname + '/info.xml', (err, data) ->
+      fs.readFile(__dirname + '/jobs.xml', (err, data) ->
         parser.parseString(data,(err, result) ->
           for vacature in result.vacatures.vacature
             requirements = vacature.opleidingsniveaus
