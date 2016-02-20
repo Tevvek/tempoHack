@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b34a18-f706-44db-b36a-4f8a56a3302e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/viewAdmin/css/bootstrap.css" afterPath="$PROJECT_DIR$/client/viewAdmin/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/view/css/style.css" afterPath="$PROJECT_DIR$/client/view/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/viewAdmin/css/style.css" afterPath="$PROJECT_DIR$/client/viewAdmin/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/view/work.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/viewAdmin/index.html" afterPath="$PROJECT_DIR$/client/viewAdmin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tempoHack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,29 +28,35 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/viewAdmin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="78" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/viewAdmin/css/style.css">
+      <file leaf-file-name="skills.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/view/skills.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="-12.666667">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/view/css/style.css">
+      <file leaf-file-name="work.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/view/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61728394">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.5106383">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,18 +84,18 @@
         <option value="$PROJECT_DIR$/client/view/font/config.json" />
         <option value="$PROJECT_DIR$/client/view/font/css/fontello.css" />
         <option value="$PROJECT_DIR$/client/view/resume.html" />
-        <option value="$PROJECT_DIR$/client/view/skills.html" />
-        <option value="$PROJECT_DIR$/client/view/work.html" />
         <option value="$PROJECT_DIR$/client/view/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/client/view/css/jquery.fancybox.css" />
         <option value="$PROJECT_DIR$/client/view/css/styleIE.css" />
         <option value="$PROJECT_DIR$/client/view/js/jquery-1.10.1.min.js" />
         <option value="$PROJECT_DIR$/client/view/index.html" />
-        <option value="$PROJECT_DIR$/client/viewAdmin/index.html" />
         <option value="$PROJECT_DIR$/client/view/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/client/viewAdmin/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/client/viewAdmin/css/style.css" />
         <option value="$PROJECT_DIR$/client/view/css/style.css" />
+        <option value="$PROJECT_DIR$/client/viewAdmin/index.html" />
+        <option value="$PROJECT_DIR$/client/view/skills.html" />
+        <option value="$PROJECT_DIR$/client/view/work.html" />
       </list>
     </option>
   </component>
@@ -226,32 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tempoHack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tempoHack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -692,26 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/view/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3539823">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/view/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/view/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -816,27 +776,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/viewAdmin/index.html">
+    <entry file="file://$PROJECT_DIR$/client/view/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.61728394">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/viewAdmin/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.82304525">
           <caret line="46" column="22" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/view/css/style.css">
+    <entry file="file://$PROJECT_DIR$/client/viewAdmin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61728394">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/view/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/view/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5106383">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#tr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
