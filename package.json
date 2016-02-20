@@ -19,9 +19,14 @@
   "dependencies": {
     "async": "^1.5.2",
     "body-parser": "^1.15.0",
+    "digger-xml": "^0.2.3",
     "express": "^4.13.4",
+    "fs": "0.0.2",
     "http": "0.0.0",
     "intersect": "^1.0.1",
-    "mongoose": "^4.4.4"
+    "mongoose": "^4.4.4",
+    "pixl-xml": "^1.0.4",
+    "util": "^0.10.3",
+    "xml-parser": "^1.2.1"
   }
 }
