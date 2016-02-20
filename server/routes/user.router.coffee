@@ -94,16 +94,46 @@ router.get('/:id/jobs', (req,res,next) ->
 
 # aplicar
 router.get('/:user_id/job/:job_id/', (req,res,next) ->
-  # calcular value (v)
+  job_id = req.params.job_id  
   user_id = req.params.user_id
-  job_id = req.params.job_id
-  JobVacancy.findOne({_id: new ObjectId(job_id)}, (err, job) ->
-    users = job.users
-    iindex = findIndex(users, (element,index,arr) ->
-      return element.value < v
-    )
-    if iindex isnt -1 then job.users = arrayInsert(users, iindex, req.body.user.id)
-    else job.users.push req.body.user.id
+  fs.readFile(__dirname + '/jobs.xml', (err, data) ->
+        parser.parseString(data,(err, result) ->
+          b = false
+          for vacature in result.vacatures.vacature
+            enterprise = vacature.bedrijf
+            number = enterprise[0].bedrijfnummer[0]
+            if number is job_id
+              studies = vacature.opleidingsniveaus[0].opleidingsniveau[1].split(', ')
+              studies.sort(alphaSort.asc)
+              tags = []
+              User.findOne({_id: new ObjectId(user_id)}, (err, user) ->
+                if !err
+                  tags = user.tags  
+                  common_studies = intersect(tags, studies)
+                  console.log common_studies
+                  console.log studies
+                  if equals(common_studies, studies)
+                    requirements = vacature.opleidingsniveaus
+                    optionals = requirements[0].opleidingsniveau[0].split(', ')
+                    optionals.sort(alphaSort.asc)
+                    common_optionals = intersect(tags, optionals)
+                    console.log tags
+                    console.log optionals
+                    console.log common_optionals
+                    v = common_optionals.length * 10
+                    job = {
+                      value: v,
+                      content: vacature
+                    }
+                    console.log 'v' + v
+                )
+              b = true
+              res.status(200).json('yes')
+              break
+            if b
+              res.status(400).json("no")
+              break
+        )
   )
 )
 
