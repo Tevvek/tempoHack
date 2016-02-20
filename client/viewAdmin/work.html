@@ -14,24 +14,23 @@
 <div class="navbar">
   <div class="navbar-inner">
     <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/tempoteam.jpg" alt=""></a>
-      <ul class="nav nav-collapse pull-right">
+      <ul class="nav nav-collapse pull-left">
         <li><a href="index.html" class="active"><i class="icon-user"></i> Profile</a></li>
-        <li><a href="skills.html"><i class="icon-trophy"></i>Search Jobs</a></li>
-        <li><a href="work.html"><i class="icon-picture"></i>Applied Jobs</a></li>
       </ul>
       <div class="nav-collapse collapse"></div>
     </div>
   </div>
 </div>
+
 <div class="container skills">
     <h2 align="center">Applied Jobs</h2>
     <tr ng-repeat="a in appliedJobs">
-        <h2 align="left">{{a.offertTitle}} {{a.city}} {{a.hoursWeek}} </h2>
-        <button align="left" type="submit" class="btn btn-small"> Read More</button>
-        <button align="left" type="submit" class="btn btn-small"> Delete</button>
+        <h2 align="left">{{a.name}} {{a.tags}} </h2>
+        <button align="left" type="submit" class="btn btn-small"> Contact</button>
         <hr style="border: none; height: 0.5px; color: grey; background: grey;"/>
     </tr>
 </div>
+
 <div class="footer">
   <div class="container">
     <p class="pull-left"><a href="https://www.tempo-team.nl">https://www.tempo-team.nl</a></p>

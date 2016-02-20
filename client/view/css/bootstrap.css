@@ -1585,8 +1585,8 @@ legend + .control-group {
 }
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
 	color: #fff;
-	background-color: #4ace54;
- *background-color: #4ace54;
+	background-color: #c83e28;
+ *background-color: #c83e28;
 }
 .btn:active, .btn.active {
 	background-color: #cccccc \9;
@@ -1596,7 +1596,7 @@ legend + .control-group {
 }
 .btn:hover, .btn:focus {
 	color: #fff;
-	background-color:#4ace54;
+	background-color:#c83e28;
 	text-decoration: none;
 	background-position: 0 -15px;
 	-webkit-transition: background-position 0.1s linear;
