@@ -144,7 +144,7 @@ router.post('/:id', (req, res, next) ->
     address: req.body.address,
     phone: req.body.phone,
     email: req.body.email,
-    tags: req.body.tags.sort(alphaSort.asc);
+    tags: req.body.tags.sort(alphaSort.asc)
   }
   User.update({_id: new ObjectId(id)}, {$set: user}, (err) -> res.status(200).send('ok') if !err)
 )
