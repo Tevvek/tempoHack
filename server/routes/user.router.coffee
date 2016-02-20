@@ -1,7 +1,6 @@
 mongoose = require('mongoose');
 router = require('express').Router();
 async = require('async');
-equals = require('array-equal')
 alphaSort = require('alpha-sort')
 User = mongoose.model('User');
 ObjectId = mongoose.Types.ObjectId;
@@ -11,7 +10,10 @@ xml2js = require('xml2js')
 parser = new xml2js.Parser()
 JobVacancy = mongoose.model('JobVacancyModel')
 strsplit = require('strsplit')
-
+equals = require('array-equal')
+difference = require('array-difference')
+arrayInsert = require('array-insert')
+findIndex = require('array-findindex')
 
 router.get('/', (req,res,next) -> 
   User.find({}, (err,users) ->
@@ -41,35 +43,68 @@ router.get('/:id/jobs', (req,res,next) ->
     foundJobs = []
     if !err
       tags = user.tags 
-      fs.readFile(__dirname + '/info.xml', (err, data) ->
+      fs.readFile(__dirname + '/jobs.xml', (err, data) ->
         parser.parseString(data,(err, result) ->
           for vacature in result.vacatures.vacature
+            console.log vacature
             requirements = vacature.opleidingsniveaus
             if requirements[0].opleidingsniveau.length is 2
               studies = requirements[0].opleidingsniveau[1].split(', ')
               studies.sort(alphaSort.asc)
               common_studies = intersect(tags, studies)
               if equals(common_studies, studies)
-                # todo: tiene los minimos, mirar que tiene opcionales
-                # requirements[0].opleidingsniveau[0].split(', ')
-                foundJobs.push vacature
+                optionals = requirements[0].opleidingsniveau[0].split(', ')
+                optionals.sort(alphaSort.asc)
+                common_optionals = intersect(tags, optionals)
+                v = common_optionals.length * 10
+                job = {
+                  value: v,
+                  content: vacature
+                }
+                if foundJobs.length is 0 then foundJobs.push job
+                else 
+                  iindex = findIndex(foundJobs, (element, index, arr) ->
+                    return element.value < v
+                  )
+                  if iindex isnt -1 then foundJobs = arrayInsert(foundJobs, iindex, job)
+                  else arrayInsert(foundJobs, iindex, job)
             else if requirements[0].opleidingsniveau.length is 1
               studies = requirements[0].opleidingsniveau[0].split(', ')
               studies.sort(alphaSort.asc)
               common_studies = intersect(tags, studies)
               if equals(common_studies, studies)
-                foundJobs.push vacature
+                job = {
+                  value: 0,
+                  content: vacature
+                }
+                if foundJobs.length is 0 then foundJobs.push job
+                else 
+                  foundJobs = arrayInsert(foundJobs, foundJobs.length, job)
             else if requirements.length is 0
-              foundJobs.push vacature
+              job = {
+                value: 0,
+                content: vacature
+              }
+              arrayInsert(foundJobs, foundJobs.length-1, job)
         )
         res.status(200).json(foundJobs)
       )
   )
 )
 
-router.get('/:user_id/job/:job_id', (req,res,next) ->
+# aplicar
+router.get('/:user_id/job/:job_id/', (req,res,next) ->
+  # calcular value (v)
   user_id = req.params.user_id
   job_id = req.params.job_id
+  JobVacancy.findOne({_id: new ObjectId(job_id)}, (err, job) ->
+    users = job.users
+    iindex = findIndex(users, (element,index,arr) ->
+      return element.value < v
+    )
+    if iindex isnt -1 then job.users = arrayInsert(users, iindex, req.body.user.id)
+    else job.users.push req.body.user.id
+  )
 )
 
 # post users info

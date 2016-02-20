@@ -15,6 +15,7 @@ app.use(bodyparser.json())
 app.use(cors())
 app.use('/user', require('./routes/user.router.coffee'))
 app.use('/job', require('./routes/job.router.js'))
-# app.use('/', require('./routes/public.coffee'))
+app.use('/admin', require('./routes/admin.router.coffee'))
+# app.use('/', require('./routes/public.router.coffee'))
 
 http.createServer(app).listen(8080) 
