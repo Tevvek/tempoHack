@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+var ObjectId = Schema.Types.ObjectId;
 
 module.exports = function() {
     var jobVacancySchema = new Schema({
@@ -24,7 +25,8 @@ module.exports = function() {
         employer: String,
         employerID: String,
 
-        tags: [{type: String, default:[]}]
+        tags: [{type: String, default:[]}],
+        users: [{type: ObjectId, ref: 'User'}]
     });
     mongoose.model('JobVacancyModel', jobVacancySchema, 'jobVacancyModel');
 };

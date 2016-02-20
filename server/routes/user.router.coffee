@@ -46,6 +46,7 @@ router.get('/:id/jobs', (req,res,next) ->
       fs.readFile(__dirname + '/jobs.xml', (err, data) ->
         parser.parseString(data,(err, result) ->
           for vacature in result.vacatures.vacature
+            console.log vacature
             requirements = vacature.opleidingsniveaus
             if requirements[0].opleidingsniveau.length is 2
               studies = requirements[0].opleidingsniveau[1].split(', ')
@@ -91,19 +92,20 @@ router.get('/:id/jobs', (req,res,next) ->
   )
 )
 
-router.post('/:user_id/job/:job_id', (req,res,next) ->
+# aplicar
+router.get('/:user_id/job/:job_id/', (req,res,next) ->
+  # calcular value (v)
   user_id = req.params.user_id
   job_id = req.params.job_id
-  Apply.update({job: new ObjectId(job_id)}, {$})
-  Apply.findOne({job: new ObjectId(job_id)}, (err, application) ->
-    for user in application.users
-      User.findOne({_id: new ObjectId(user.id)}, (err, user) ->
-
-      )
+  JobVacancy.findOne({_id: new ObjectId(job_id)}, (err, job) ->
+    users = job.users
+    iindex = findIndex(users, (element,index,arr) ->
+      return element.value < v
+    )
+    if iindex isnt -1 then job.users = arrayInsert(users, iindex, req.body.user.id)
+    else job.users.push req.body.user.id
   )
 )
-
-router.post('', (req,res,next) ->)
 
 # post users info
 router.post('/:id', (req, res, next) -> 
