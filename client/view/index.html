@@ -8,8 +8,13 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="font/css/fontello.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+  <!--Angular-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-messages.js"></script>
+  <script src="../controllers/indexView-ctrl.js"></script>
 </head>
-<body>
+<body ng-app='tempoTeamApp' ng-controller='nuevaAppCtrl'>
 <div class="navbar">
   <div class="navbar-inner">
     <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/tempoteam.jpg" alt=""></a>
@@ -25,7 +30,7 @@
 <div class="container profile">
   <div class="span3"> <img src="img/fulanito.png" alt=""> </div>
   <div class="span5">
-    <h1>{{NameSurname}}</h1>
+    <h1>{{name}}</h1>
     <div>
       <h2>{{email}}</h2>
       <h2>{{phoneNumber}}</h2>
