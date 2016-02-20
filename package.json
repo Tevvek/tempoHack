@@ -17,12 +17,18 @@
   },
   "homepage": "https://github.com/Tevvek/tempoHack#readme",
   "dependencies": {
+    "alpha-sort": "^1.0.2",
+    "array-equal": "^1.0.0",
     "async": "^1.5.2",
     "body-parser": "^1.15.0",
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "http": "0.0.0",
     "intersect": "^1.0.1",
-    "mongoose": "^4.4.4"
+    "js": "^0.1.0",
+    "mongoose": "^4.4.4",
+    "strsplit": "^1.0.0",
+    "xml2js": "^0.4.16",
+    "xml2json": "^0.9.0"
   }
 }

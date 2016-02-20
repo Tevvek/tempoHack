@@ -1,15 +1,15 @@
-      <vacatures xmlns:vac="http://xml.ibridge.nl/nl/rsg/kim/2/vacatureservice" xmlns="http://xml.ibridge.nl/nl/rsg/kim/2/vacatureservice">
-         <vac:vacature>
-            <vac:aanvraagnummer>1742514</vac:aanvraagnummer>
-            <vac:labelnaam>Tempo-Team Uitzenden</vac:labelnaam>
-            <vac:unitnaam>Alkmaar e.o.</vac:unitnaam>
-            <vac:publicatiedatum>2016-02-05</vac:publicatiedatum>
-            <vac:bedrijf>
-               <vac:bedrijfsnaam>Tempo-Team</vac:bedrijfsnaam>
-               <vac:bedrijfnummer>408086</vac:bedrijfnummer>
-            </vac:bedrijf>
-            <vac:functie>
-               <vac:functieomschrijving>Ben jij opzoek naar een baan met veel vrijheid, zelfstandigheid en doorgroeimogelijkheden, bij een bedrijf met een gezellige sfeer? 
+<todos> 
+         <vacature>
+            <aanvraagnummer>1742514</aanvraagnummer>
+            <labelnaam>Tempo-Team Uitzenden</labelnaam>
+            <unitnaam>Alkmaar e.o.</unitnaam>
+            <publicatiedatum>2016-02-05</publicatiedatum>
+            <bedrijf>
+               <bedrijfsnaam>Tempo-Team</bedrijfsnaam>
+               <bedrijfnummer>408086</bedrijfnummer>
+            </bedrijf>
+            <functie>
+               <functieomschrijving>Ben jij opzoek naar een baan met veel vrijheid, zelfstandigheid en doorgroeimogelijkheden, bij een bedrijf met een gezellige sfeer? 
 
 Voor één van onze opdrachtgevers in de regio Alkmaar zijn wij per direct opzoek naar een ervaren machinist voor op de minigraver met rijbewijs C. Het bedrijf is een allround installateur op het gebied van infrastructurele elektrotechniek. 
 
@@ -39,92 +39,92 @@ Functie eisen:
 Met een marktconform salaris conform CAO met 24 vakantiedagen en 13 ATV dagen.
 Het is een tijdelijke functie met uitzicht op vast dienstverband.
 
-Herken jij jezelf in bovenstaande vacature? Reageer dan snel via de button "solliciteer". Mocht je niet voldoen aan bovenstaand profiel dan vragen we je begrip dat wij je sollicitatie niet in behandeling nemen.</vac:functieomschrijving>
-               <vac:functiegroepen>
-                  <vac:functiegroep>Besturen voertuig</vac:functiegroep>
-               </vac:functiegroepen>
-               <vac:functienaam>Chauffeur kraanwagen (M/V)</vac:functienaam>
-            </vac:functie>
-            <vac:werklocatie>
-               <vac:positie>
-                  <vac:lengtegraad>4.743707</vac:lengtegraad>
-                  <vac:breedtegraad>52.631147</vac:breedtegraad>
-               </vac:positie>
-               <vac:plaats>Alkmaar</vac:plaats>
-               <vac:postcode>1851</vac:postcode>
-            </vac:werklocatie>
-            <vac:aantaldagenperweek>5</vac:aantaldagenperweek>
-            <vac:aantalurenperweek>40.0</vac:aantalurenperweek>
-            <vac:salarisindicatie>1500</vac:salarisindicatie>
-            <vac:opleidingsniveaus>
-               <vac:opleidingsniveau>MBO, HAVO, VWO</vac:opleidingsniveau>
-            </vac:opleidingsniveaus>
-            <vac:vakgebieden>
-               <vac:vakgebied>Bouw</vac:vakgebied>
-               <vac:vakgebied>Overig</vac:vakgebied>
-               <vac:vakgebied>Techniek</vac:vakgebied>
-            </vac:vakgebieden>
-            <vac:branches>
-               <vac:branche>Overig</vac:branche>
-            </vac:branches>
-            <vac:urlvacaturedetails>http://www.tempo-team.nl/vacatures/1742514</vac:urlvacaturedetails>
-         </vac:vacature>
-         <vac:vacature>
-            <vac:aanvraagnummer>1779000</vac:aanvraagnummer>
-            <vac:labelnaam>Tempo-Team Uitzenden</vac:labelnaam>
-            <vac:unitnaam>Sabic</vac:unitnaam>
-            <vac:publicatiedatum>2016-02-18</vac:publicatiedatum>
-            <vac:bedrijf>
-               <vac:bedrijfsnaam>SABIC Innovative Plastics BV</vac:bedrijfsnaam>
-               <vac:bedrijfnummer>4841690</vac:bedrijfnummer>
-            </vac:bedrijf>
-            <vac:functie>
-               <vac:functieomschrijving>We are looking for an Operations Specialist specifically supporting Customer and Product Master Data activities within the Supply Chain Operations team.  
+Herken jij jezelf in bovenstaande vacature? Reageer dan snel via de button "solliciteer". Mocht je niet voldoen aan bovenstaand profiel dan vragen we je begrip dat wij je sollicitatie niet in behandeling nemen.</functieomschrijving>
+               <functiegroepen>
+                  <functiegroep>Besturen voertuig</functiegroep>
+               </functiegroepen>
+               <functienaam>Chauffeur kraanwagen (M/V)</functienaam>
+            </functie>
+            <werklocatie>
+               <positie>
+                  <lengtegraad>4.743707</lengtegraad>
+                  <breedtegraad>52.631147</breedtegraad>
+               </positie>
+               <plaats>Alkmaar</plaats>
+               <postcode>1851</postcode>
+            </werklocatie>
+            <aantaldagenperweek>5</aantaldagenperweek>
+            <aantalurenperweek>40.0</aantalurenperweek>
+            <salarisindicatie>1500</salarisindicatie>
+            <opleidingsniveaus>
+               <opleidingsniveau>MBO, HAVO, VWO</opleidingsniveau>
+            </opleidingsniveaus>
+            <vakgebieden>
+               <vakgebied>Bouw</vakgebied>
+               <vakgebied>Overig</vakgebied>
+               <vakgebied>Techniek</vakgebied>
+            </vakgebieden>
+            <branches>
+               <branche>Overig</branche>
+            </branches>
+            <urlvacaturedetails>http://www.tempo-team.nl/vacatures/1742514</urlvacaturedetails>
+         </vacature>
+         <vacature>
+            <aanvraagnummer>1779000</aanvraagnummer>
+            <labelnaam>Tempo-Team Uitzenden</labelnaam>
+            <unitnaam>Sabic</unitnaam>
+            <publicatiedatum>2016-02-18</publicatiedatum>
+            <bedrijf>
+               <bedrijfsnaam>SABIC Innovative Plastics BV</bedrijfsnaam>
+               <bedrijfnummer>4841690</bedrijfnummer>
+            </bedrijf>
+            <functie>
+               <functieomschrijving>We are looking for an Operations Specialist specifically supporting Customer and Product Master Data activities within the Supply Chain Operations team.  
 
 Your responsibilities:
 
 Product Master:  
-- Manage the setup and maintenance of new grades, colors, customer specs, packaging codes, product classification codes and warehouses.  Maintain product master through activation and deactivation of items</vac:functieomschrijving>
-               <vac:functiegroepen>
-                  <vac:functiegroep>In- en verkopen</vac:functiegroep>
-               </vac:functiegroepen>
-               <vac:functienaam>Supply Chain operations specialist (M/V)</vac:functienaam>
-            </vac:functie>
-            <vac:werklocatie>
-               <vac:positie>
-                  <vac:lengtegraad>4.25818</vac:lengtegraad>
-                  <vac:breedtegraad>51.508221</vac:breedtegraad>
-               </vac:positie>
-               <vac:plaats>BERGEN OP ZOOM</vac:plaats>
-               <vac:postcode>4612</vac:postcode>
-            </vac:werklocatie>
-            <vac:aantaldagenperweek>5</vac:aantaldagenperweek>
-            <vac:aantalurenperweek>40.0</vac:aantalurenperweek>
-            <vac:salarisindicatie>2650</vac:salarisindicatie>
-            <vac:opleidingsniveaus>
-               <vac:opleidingsniveau>HBO</vac:opleidingsniveau>
-            </vac:opleidingsniveaus>
-            <vac:vakgebieden>
-               <vac:vakgebied>Commercieel / Verkoop</vac:vakgebied>
-               <vac:vakgebied>Logistiek</vac:vakgebied>
-            </vac:vakgebieden>
-            <vac:branches>
-               <vac:branche>Industrie</vac:branche>
-            </vac:branches>
-            <vac:urlvacaturedetails>http://www.tempo-team.nl/vacatures/1779000</vac:urlvacaturedetails>
-            <vac:urllogobedrijf>http://www.tempo-team.nl/mwp2/bedrijfLogo?bedrijfId=691709</vac:urllogobedrijf>
-         </vac:vacature>
-         <vac:vacature>
-            <vac:aanvraagnummer>1761280</vac:aanvraagnummer>
-            <vac:labelnaam>Tempo-Team Uitzenden</vac:labelnaam>
-            <vac:unitnaam>Recruitment ABN AMRO</vac:unitnaam>
-            <vac:publicatiedatum>2016-02-17</vac:publicatiedatum>
-            <vac:bedrijf>
-               <vac:bedrijfsnaam>Grote lokale bank</vac:bedrijfsnaam>
-               <vac:bedrijfnummer>3274866</vac:bedrijfnummer>
-            </vac:bedrijf>
-            <vac:functie>
-               <vac:functieomschrijving>Volg jij het financiële nieuws dagelijks dromend van een carrière bij één van de grootste Nederlandse banken? Dan is de functie als telefonisch klantadviseur de ideale start van jouw carrière! 
+- Manage the setup and maintenance of new grades, colors, customer specs, packaging codes, product classification codes and warehouses.  Maintain product master through activation and deactivation of items</functieomschrijving>
+               <functiegroepen>
+                  <functiegroep>In- en verkopen</functiegroep>
+               </functiegroepen>
+               <functienaam>Supply Chain operations specialist (M/V)</functienaam>
+            </functie>
+            <werklocatie>
+               <positie>
+                  <lengtegraad>4.25818</lengtegraad>
+                  <breedtegraad>51.508221</breedtegraad>
+               </positie>
+               <plaats>BERGEN OP ZOOM</plaats>
+               <postcode>4612</postcode>
+            </werklocatie>
+            <aantaldagenperweek>5</aantaldagenperweek>
+            <aantalurenperweek>40.0</aantalurenperweek>
+            <salarisindicatie>2650</salarisindicatie>
+            <opleidingsniveaus>
+               <opleidingsniveau>HBO</opleidingsniveau>
+            </opleidingsniveaus>
+            <vakgebieden>
+               <vakgebied>Commercieel / Verkoop</vakgebied>
+               <vakgebied>Logistiek</vakgebied>
+            </vakgebieden>
+            <branches>
+               <branche>Industrie</branche>
+            </branches>
+            <urlvacaturedetails>http://www.tempo-team.nl/vacatures/1779000</urlvacaturedetails>
+            <urllogobedrijf>http://www.tempo-team.nl/mwp2/bedrijfLogo?bedrijfId=691709</urllogobedrijf>
+         </vacature>
+         <vacature>
+            <aanvraagnummer>1761280</aanvraagnummer>
+            <labelnaam>Tempo-Team Uitzenden</labelnaam>
+            <unitnaam>Recruitment ABN AMRO</unitnaam>
+            <publicatiedatum>2016-02-17</publicatiedatum>
+            <bedrijf>
+               <bedrijfsnaam>Grote lokale bank</bedrijfsnaam>
+               <bedrijfnummer>3274866</bedrijfnummer>
+            </bedrijf>
+            <functie>
+               <functieomschrijving>Volg jij het financiële nieuws dagelijks dromend van een carrière bij één van de grootste Nederlandse banken? Dan is de functie als telefonisch klantadviseur de ideale start van jouw carrière! 
 
 Aangezien jij op de hoogte bent van de laatste ontwikkelingen in het bankwezen heb je natuurlijk iets gehoord over de verschillende Wft-certificaten. Met name het Wft-basis certificaat is erg belangrijk in de functie van telefonisch klantadviseur. Heb jij het certificaat nog niet? Dat is geen probleem, want Tempo-Team helpt jou hier graag bij. Wij vergoeden zelfs de kosten!
 
@@ -142,48 +142,48 @@ Wat je ook nog moet weten
 - Voor de start van de functie moet het Wft-basis certificaat zijn behaald.
 - Er wordt een marktconform salaris geboden. 
 
-Interesse? Reageer dan direct via de button!</vac:functieomschrijving>
-               <vac:functiegroepen>
-                  <vac:functiegroep>Adviseren</vac:functiegroep>
-               </vac:functiegroepen>
-               <vac:functienaam>Telefonisch Adviseur Topvang Bedrijven (M/V)</vac:functienaam>
-            </vac:functie>
-            <vac:werklocatie>
-               <vac:positie>
-                  <vac:lengtegraad>5.474629</vac:lengtegraad>
-                  <vac:breedtegraad>51.444274</vac:breedtegraad>
-               </vac:positie>
-               <vac:plaats>EINDHOVEN</vac:plaats>
-               <vac:postcode>5612</vac:postcode>
-            </vac:werklocatie>
-            <vac:aantaldagenperweek>5</vac:aantaldagenperweek>
-            <vac:aantalurenperweek>28.0</vac:aantalurenperweek>
-            <vac:salarisindicatie>1919</vac:salarisindicatie>
-            <vac:opleidingsniveaus>
-               <vac:opleidingsniveau>HBO</vac:opleidingsniveau>
-               <vac:opleidingsniveau>MBO, HAVO, VWO</vac:opleidingsniveau>
-            </vac:opleidingsniveaus>
-            <vac:vakgebieden>
-               <vac:vakgebied>Bank en verzekeringen</vac:vakgebied>
-               <vac:vakgebied>Commercieel / Verkoop</vac:vakgebied>
-               <vac:vakgebied>Financieel</vac:vakgebied>
-            </vac:vakgebieden>
-            <vac:branches>
-               <vac:branche>Financiële dienstverlening</vac:branche>
-            </vac:branches>
-            <vac:urlvacaturedetails>http://www.tempo-team.nl/vacatures/1761280</vac:urlvacaturedetails>
-         </vac:vacature>
-         <vac:vacature>
-            <vac:aanvraagnummer>1774604</vac:aanvraagnummer>
-            <vac:labelnaam>Tempo-Team Uitzenden</vac:labelnaam>
-            <vac:unitnaam>Kantoor &amp; Industrie</vac:unitnaam>
-            <vac:publicatiedatum>2016-02-18</vac:publicatiedatum>
-            <vac:bedrijf>
-               <vac:bedrijfsnaam>Klantrelatie</vac:bedrijfsnaam>
-               <vac:bedrijfnummer>1121540</vac:bedrijfnummer>
-            </vac:bedrijf>
-            <vac:functie>
-               <vac:functieomschrijving>Voor een klantrelatie zijn wij met spoed op zoek naar een technisch medewerker serviceafdeling. Jij  zorgt ervoor samen met je collega's als team, dat de serviceafdeling de werkzaamheden op een kwalitatief hoog niveau uitvoert, waardoor er een grote klanttevredenheid ontstaat. Zowel intern als extern.
+Interesse? Reageer dan direct via de button!</functieomschrijving>
+               <functiegroepen>
+                  <functiegroep>Adviseren</functiegroep>
+               </functiegroepen>
+               <functienaam>Telefonisch Adviseur Topvang Bedrijven (M/V)</functienaam>
+            </functie>
+            <werklocatie>
+               <positie>
+                  <lengtegraad>5.474629</lengtegraad>
+                  <breedtegraad>51.444274</breedtegraad>
+               </positie>
+               <plaats>EINDHOVEN</plaats>
+               <postcode>5612</postcode>
+            </werklocatie>
+            <aantaldagenperweek>5</aantaldagenperweek>
+            <aantalurenperweek>28.0</aantalurenperweek>
+            <salarisindicatie>1919</salarisindicatie>
+            <opleidingsniveaus>
+               <opleidingsniveau>HBO</opleidingsniveau> <!-- opcional --> 
+               <opleidingsniveau>MBO, HAVO, VWO</opleidingsniveau> <!-- obligatorio -->
+            </opleidingsniveaus>
+            <vakgebieden>
+               <vakgebied>Bank en verzekeringen</vakgebied>
+               <vakgebied>Commercieel / Verkoop</vakgebied>
+               <vakgebied>Financieel</vakgebied>
+            </vakgebieden>
+            <branches>
+               <branche>Financiële dienstverlening</branche>
+            </branches>
+            <urlvacaturedetails>http://www.tempo-team.nl/vacatures/1761280</urlvacaturedetails>
+         </vacature>
+         <vacature>
+            <aanvraagnummer>1774604</aanvraagnummer>
+            <labelnaam>Tempo-Team Uitzenden</labelnaam>
+            <unitnaam>Kantoor &amp; Industrie</unitnaam>
+            <publicatiedatum>2016-02-18</publicatiedatum>
+            <bedrijf>
+               <bedrijfsnaam>Klantrelatie</bedrijfsnaam>
+               <bedrijfnummer>1121540</bedrijfnummer>
+            </bedrijf>
+            <functie>
+               <functieomschrijving>Voor een klantrelatie zijn wij met spoed op zoek naar een technisch medewerker serviceafdeling. Jij  zorgt ervoor samen met je collega's als team, dat de serviceafdeling de werkzaamheden op een kwalitatief hoog niveau uitvoert, waardoor er een grote klanttevredenheid ontstaat. Zowel intern als extern.
 
 Kerntaken:
 *Correct en veilig uitvoeren van alle reparaties aan fietsen (e-bike) en onderdelen
@@ -211,46 +211,46 @@ Ben jij:
 *geordend en georganiseerd 
 
 
-Ben jij geinteresseerd? Reageer dan snel en solliciteer.</vac:functieomschrijving>
-               <vac:functiegroepen>
-                  <vac:functiegroep>Monteren/repareren voertuigen en machine</vac:functiegroep>
-               </vac:functiegroepen>
-               <vac:functienaam>Technisch medewerker serviceafdeling (M/V)</vac:functienaam>
-            </vac:functie>
-            <vac:werklocatie>
-               <vac:positie>
-                  <vac:lengtegraad>6.092929</vac:lengtegraad>
-                  <vac:breedtegraad>52.509</vac:breedtegraad>
-               </vac:positie>
-               <vac:plaats>ZWOLLE</vac:plaats>
-               <vac:postcode>8028</vac:postcode>
-            </vac:werklocatie>
-            <vac:aantaldagenperweek>5</vac:aantaldagenperweek>
-            <vac:aantalurenperweek>40.0</vac:aantalurenperweek>
-            <vac:salarisindicatie>1993</vac:salarisindicatie>
-            <vac:opleidingsniveaus>
-               <vac:opleidingsniveau>MBO, HAVO, VWO</vac:opleidingsniveau>
-            </vac:opleidingsniveaus>
-            <vac:vakgebieden>
-               <vac:vakgebied>Overig</vac:vakgebied>
-               <vac:vakgebied>Techniek</vac:vakgebied>
-            </vac:vakgebieden>
-            <vac:branches>
-               <vac:branche>Logistiek</vac:branche>
-            </vac:branches>
-            <vac:urlvacaturedetails>http://www.tempo-team.nl/vacatures/1774604</vac:urlvacaturedetails>
-         </vac:vacature>
-         <vac:vacature>
-            <vac:aanvraagnummer>1778058</vac:aanvraagnummer>
-            <vac:labelnaam>Tempo-Team Uitzenden</vac:labelnaam>
-            <vac:unitnaam>Kantoor &amp; Industrie</vac:unitnaam>
-            <vac:publicatiedatum>2016-02-18</vac:publicatiedatum>
-            <vac:bedrijf>
-               <vac:bedrijfsnaam>Klantrelatie</vac:bedrijfsnaam>
-               <vac:bedrijfnummer>1133615</vac:bedrijfnummer>
-            </vac:bedrijf>
-            <vac:functie>
-               <vac:functieomschrijving>Op korte termijn verwachten wij de vacature voor de functie van allround laborant bij onze klantrelatie. 
+Ben jij geinteresseerd? Reageer dan snel en solliciteer.</functieomschrijving>
+               <functiegroepen>
+                  <functiegroep>Monteren/repareren voertuigen en machine</functiegroep>
+               </functiegroepen>
+               <functienaam>Technisch medewerker serviceafdeling (M/V)</functienaam>
+            </functie>
+            <werklocatie>
+               <positie>
+                  <lengtegraad>6.092929</lengtegraad>
+                  <breedtegraad>52.509</breedtegraad>
+               </positie>
+               <plaats>ZWOLLE</plaats>
+               <postcode>8028</postcode>
+            </werklocatie>
+            <aantaldagenperweek>5</aantaldagenperweek>
+            <aantalurenperweek>40.0</aantalurenperweek>
+            <salarisindicatie>1993</salarisindicatie>
+            <opleidingsniveaus>
+               <opleidingsniveau>MBOO, HAVO, VWO</opleidingsniveau>
+            </opleidingsniveaus>
+            <vakgebieden>
+               <vakgebied>Overig</vakgebied>
+               <vakgebied>Techniek</vakgebied>
+            </vakgebieden>
+            <branches>
+               <branche>Logistiek</branche>
+            </branches>
+            <urlvacaturedetails>http://www.tempo-team.nl/vacatures/1774604</urlvacaturedetails>
+         </vacature>
+         <vacature>
+            <aanvraagnummer>1778058</aanvraagnummer>
+            <labelnaam>Tempo-Team Uitzenden</labelnaam>
+            <unitnaam>Kantoor &amp; Industrie</unitnaam>
+            <publicatiedatum>2016-02-18</publicatiedatum>
+            <bedrijf>
+               <bedrijfsnaam>Klantrelatie</bedrijfsnaam>
+               <bedrijfnummer>1133615</bedrijfnummer>
+            </bedrijf>
+            <functie>
+               <functieomschrijving>Op korte termijn verwachten wij de vacature voor de functie van allround laborant bij onze klantrelatie. 
 Het betreft een functie voor 32-40 uur per week voor langere tijd. 
 
 Naast het testen denk je ook mee over het proces en verbeteringen.
@@ -263,33 +263,34 @@ Wij zoeken een kandidaat die voldoet aan het volgende profiel:
 - Je kunt goed zelfstandig werken
 - Je bent iemand met een no nonsens mentaliteit 
 
-Voldoe jij aan de eisen en ben je op zoek naar een leuke baan binnen een groeiend en dynamisch bedrijf? Solliciteer dan met een uitgebreide motivatie en je cv.</vac:functieomschrijving>
-               <vac:functiegroepen>
-                  <vac:functiegroep>Laboratoriumwerkzaamheden</vac:functiegroep>
-               </vac:functiegroepen>
-               <vac:functienaam>Allround laboratoriummedewerker (M/V)</vac:functienaam>
-            </vac:functie>
-            <vac:werklocatie>
-               <vac:positie>
-                  <vac:lengtegraad>6.092929</vac:lengtegraad>
-                  <vac:breedtegraad>52.509</vac:breedtegraad>
-               </vac:positie>
-               <vac:plaats>ZWOLLE</vac:plaats>
-               <vac:postcode>8013</vac:postcode>
-            </vac:werklocatie>
-            <vac:aantaldagenperweek>4</vac:aantaldagenperweek>
-            <vac:aantalurenperweek>32.0</vac:aantalurenperweek>
-            <vac:salarisindicatie>1907</vac:salarisindicatie>
-            <vac:opleidingsniveaus>
-               <vac:opleidingsniveau>MBO, HAVO, VWO</vac:opleidingsniveau>
-            </vac:opleidingsniveaus>
-            <vac:vakgebieden>
-               <vac:vakgebied>Overig</vac:vakgebied>
-               <vac:vakgebied>Techniek</vac:vakgebied>
-            </vac:vakgebieden>
-            <vac:branches>
-               <vac:branche>Logistiek</vac:branche>
-            </vac:branches>
-            <vac:urlvacaturedetails>http://www.tempo-team.nl/vacatures/1778058</vac:urlvacaturedetails>
-         </vac:vacature>
+Voldoe jij aan de eisen en ben je op zoek naar een leuke baan binnen een groeiend en dynamisch bedrijf? Solliciteer dan met een uitgebreide motivatie en je cv.</functieomschrijving>
+               <functiegroepen>
+                  <functiegroep>Laboratoriumwerkzaamheden</functiegroep>
+               </functiegroepen>
+               <functienaam>Allround laboratoriummedewerker (M/V)</functienaam>
+            </functie>
+            <werklocatie>
+               <positie>
+                  <lengtegraad>6.092929</lengtegraad>
+                  <breedtegraad>52.509</breedtegraad>
+               </positie>
+               <plaats>ZWOLLE</plaats>
+               <postcode>8013</postcode>
+            </werklocatie>
+            <aantaldagenperweek>4</aantaldagenperweek>
+            <aantalurenperweek>32.0</aantalurenperweek>
+            <salarisindicatie>1907</salarisindicatie>
+            <opleidingsniveaus>
+               <opleidingsniveau>HAVO, VWO</opleidingsniveau>
+            </opleidingsniveaus>
+            <vakgebieden>
+               <vakgebied>Overig</vakgebied>
+               <vakgebied>Techniek</vakgebied>
+            </vakgebieden>
+            <branches>
+               <branche>Logistiek</branche>
+            </branches>
+            <urlvacaturedetails>http://www.tempo-team.nl/vacatures/1778058</urlvacaturedetails>
+         </vacature>
                </vacatures>      
+            </todos>

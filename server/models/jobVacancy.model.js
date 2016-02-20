@@ -24,7 +24,7 @@ module.exports = function() {
         employer: String,
         employerID: String,
 
-        tagsForDemo: [{type: String, default:[]}],
+        tags: [{type: String, default:[]}],
     });
     mongoose.model('JobVacancyModel', jobVacancySchema, 'jobVacancyModel');
 };
