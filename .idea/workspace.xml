@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b34a18-f706-44db-b36a-4f8a56a3302e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/view/applied.html" afterPath="$PROJECT_DIR$/client/view/applied.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/viewAdmin/applied.html" afterPath="$PROJECT_DIR$/client/viewAdmin/applied.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/view/index.html" afterPath="$PROJECT_DIR$/client/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/viewAdmin/index.html" afterPath="$PROJECT_DIR$/client/viewAdmin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/view/jobVacancies.html" afterPath="$PROJECT_DIR$/client/view/jobVacancies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/controllers/jobVacancies-ctrl.js" afterPath="$PROJECT_DIR$/client/controllers/jobVacancies-ctrl.js" />
     </list>
     <ignored path="tempoHack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +26,18 @@
       <file leaf-file-name="jobVacancies-ctrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/controllers/jobVacancies-ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.061728396">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexView-ctrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/controllers/indexView-ctrl.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="7" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -79,6 +84,7 @@
         <option value="$PROJECT_DIR$/client/view/jobVacancies.html" />
         <option value="$PROJECT_DIR$/client/viewAdmin/applied.html" />
         <option value="$PROJECT_DIR$/client/viewAdmin/index.html" />
+        <option value="$PROJECT_DIR$/client/controllers/jobVacancies-ctrl.js" />
       </list>
     </option>
   </component>
@@ -834,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/indexView-ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14403293">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/appliedAdmin-ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -850,10 +848,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/jobVacancies-ctrl.js">
+    <entry file="file://$PROJECT_DIR$/client/controllers/indexView-ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/jobVacancies-ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061728396">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
