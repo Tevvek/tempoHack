@@ -2084,6 +2084,9 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .icon-picture {
   background-position: -456px -48px;
 }
+.a{
+	backgrounf-position -456px -48px;
+}
 .icon-pencil {
   background-position: 0 -72px;
 }
